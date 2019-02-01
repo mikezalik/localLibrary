@@ -9,6 +9,8 @@ if (!userArgs[0].startsWith('mongodb://')) {
     return
 }
 
+
+
 var async = require('async')
 var Book = require('./models/book')
 var Author = require('./models/author')
